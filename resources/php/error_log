@@ -1,0 +1,5 @@
+[01-Nov-2014 15:25:53 America/Denver] PHP Notice:  Use of undefined constant self - assumed 'self' in /home1/gaborsza/public_html/martinszauer/resources/php/class.gump.php on line 181
+[01-Nov-2014 15:25:55 America/Denver] PHP Notice:  Use of undefined constant self - assumed 'self' in /home1/gaborsza/public_html/martinszauer/resources/php/class.gump.php on line 181
+[01-Nov-2014 15:27:23 America/Denver] PHP Notice:  Use of undefined constant self - assumed 'self' in /home1/gaborsza/public_html/martinszauer/resources/php/class.gump.php on line 181
+[22-Dec-2014 09:33:07 America/Denver] PHP Notice:  Undefined index: qaptcha_key in /home1/gaborsza/public_html/martinszauer/resources/php/mail.php on line 9
+[22-Dec-2014 09:33:07 America/Denver] PHP Notice:  Use of undefined constant self - assumed 'self' in /home1/gaborsza/public_html/martinszauer/resources/php/class.gump.php on line 181
