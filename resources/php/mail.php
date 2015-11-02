@@ -46,7 +46,7 @@ if(isset($_SERVER['HTTP_X_REQUESTED_WITH']) && ($_SERVER['HTTP_X_REQUESTED_WITH'
 		
 		if($validated) {
 		
-			$receiver = "contact@martinszauer.com";
+			$receiver = "em@il.com";
 			$subject = "Website - Contactform";
 			
 			$header  = "MIME-Version: 1.0" . "\r\n";
