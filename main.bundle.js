@@ -142,12 +142,12 @@ var PortfolioComponent = (function () {
         this.websites = [{
                 title: 'YelpCamp',
                 target: "https://www.bit.ly/yelpcamp",
-                image: "../assets/screencaps/yelpcamp.png",
+                image: "assets/screencaps/yelpcamp.png",
                 description: "YelpCamp is like Yelp, but for campsites!"
             }, {
                 title: 'ngProject',
                 target: "https://mszauer.github.io/ngProject/",
-                image: "../assets/screencaps/ngproject.png",
+                image: "assets/screencaps/ngproject.png",
                 description: "A blog-esque SPA with pagination and nested comments"
             }];
     }
