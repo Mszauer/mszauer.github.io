@@ -146,9 +146,9 @@ var PortfolioComponent = (function () {
                 description: "YelpCamp is like Yelp, but for campsites!"
             }, {
                 title: 'ngProject',
-                target: "http://i.imgur.com/jMMnT2k.png",
-                image: "assets/screencaps/ngproject.png",
-                description: "A blog-esque SPA with pagination and nested comments."
+                target: "https://mszauer.github.io/ngProject/",
+                image: "http://i.imgur.com/jMMnT2k.png",
+                description: "A blog-esque SPA with pagination and nested comments"
             }];
     }
     PortfolioComponent.prototype.ngOnInit = function () {
