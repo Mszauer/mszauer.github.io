@@ -148,7 +148,7 @@ var PortfolioComponent = (function () {
                 title: 'ngProject',
                 target: "http://i.imgur.com/jMMnT2k.png",
                 image: "assets/screencaps/ngproject.png",
-                description: "A blog-esque SPA with pagination and nested comments"
+                description: "A blog-esque SPA with pagination and nested comments."
             }];
     }
     PortfolioComponent.prototype.ngOnInit = function () {
