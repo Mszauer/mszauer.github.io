@@ -142,13 +142,13 @@ var PortfolioComponent = (function () {
         this.websites = [{
                 title: 'YelpCamp',
                 target: "https://www.bit.ly/yelpcamp",
-                image: "http://i.imgur.com/UbckYhm.png",
+                image: "/assets/screencaps/yelpcamp.PNG",
                 skills: "MongooseDB, Express, EJS, NodeJS, Passport, ES6",
                 description: "Full-stack project that implements RESTful routing and is like Yelp but for campsites. Registered users can\n                    add, rate, and review campsites. "
             }, {
                 title: 'ngProject',
                 target: "https://mszauer.github.io/ngProject/",
-                image: "http://i.imgur.com/jMMnT2k.png",
+                image: "/assets/screencaps/ngproject.PNG",
                 skills: "Angular (Angular2) Front-End, ES6",
                 description: "SPA Built using the latest Angular(2) build and features. Mimicks backend server calls with API calls. \n                    Uses RESTful routing and is similar to blog website. Built using re-usable components and uses Observables to handle asynchrony."
             }];
@@ -438,7 +438,7 @@ module.exports = ".panel{\r\n    margin-top: 20px;\r\n    margin-left: 21.5%;\r\
 /***/ 666:
 /***/ (function(module, exports) {
 
-module.exports = "\r\n.start{\r\n    padding: 2px 15px;\r\n    background-color: #87CEFA;\r\n}\r\n.end{\r\n    padding: 2px 15px;\r\n    background-color: #375a7f;\r\n}\r\n.panel{\r\n    width: 70%;\r\n    margin-left: 21.5%;\r\n    height: 200px;\r\n}\r\nul{\r\n    list-style-type: none;\r\n}\r\nul:nth-child(odd){\r\n    width: 100%;\r\n    background-color: #464545;\r\n}\r\n.dates{\r\n    max-width: 100px;\r\n}\r\nli{\r\n    height: 50px;\r\n}\r\n.company{\r\n    padding-left: 1em;\r\n}\r\n.position{\r\n    margin-bottom: 5px;\r\n}\r\n.panel{\r\n    margin-top: 20px;\r\n    margin-left: 21.5%;\r\n    width:70%;\r\n    height: 250px;\r\n}"
+module.exports = "\r\n.start{\r\n    padding: 2px 15px;\r\n    background-color: #87CEFA;\r\n}\r\n.end{\r\n    padding: 2px 15px;\r\n    background-color: #375a7f;\r\n}\r\n.panel{\r\n    width: 70%;\r\n    margin-left: 21.5%;\r\n    height: 200px;\r\n}\r\nul{\r\n    list-style-type: none;\r\n}\r\nul:nth-child(odd){\r\n    width: 100%;\r\n    background-color: #464545;\r\n}\r\n.dates{\r\n    max-width: 100px;\r\n}\r\nli{\r\n    height: 50px;\r\n}\r\n.company{\r\n    padding-left: 1em;\r\n}\r\n.position{\r\n    margin-left: 101px;\r\n    margin-bottom: 5px;\r\n}\r\n.panel{\r\n    margin-top: 20px;\r\n    margin-left: 21.5%;\r\n    width:70%;\r\n    height: 250px;\r\n}"
 
 /***/ }),
 
@@ -501,7 +501,7 @@ module.exports = "<div class=\"panel panel-info\">\n   <div class=\"panel-headin
 /***/ 675:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container-fluid col-xs-2 column sidebar\">\n  <div class=\"media\">\n    <img src=\"https://avatars0.githubusercontent.com/u/9440289?v=3&s=460\" \n          class='portrait' alt=\"A picture of Szauer, Martin\">\n    <div class=\"media-body text-center\">\n      <h4>Martin Szauer</h4>\n    </div>\n  </div>\n  <div class=\"row\">\n  <ul class = \"nav nav-pills nav-stacked navlinks\">    \n      <li><a routerLink='' routerLinkActive='active'><i class=\"fa fa-id-card\" aria-hidden=\"true\"></i>  About</a></li>\n      <li><a routerLink='portfolio' routerLinkActive='active'><i class=\"fa fa-code\" aria-hidden=\"true\"></i> Portfolio</a></li>\n      <li><a routerLink='contact' routerLinkActive='active'><i class=\"fa fa-envelope\" aria-hidden=\"true\"></i> Contact</a></li>\n      <li><a routerLink='employment' routerLinkActive='active'><i class=\"fa fa-address-book-o\" aria-hidden=\"true\"></i> Employment</a></li>\n      <li><a href='../../assets/MartinSzauerResume.pdf'><i class=\"fa fa-file-text\" aria-hidden=\"true\"></i>   Resume</a></li>\n    </ul>\n  </div>\n    <ul class=\"nav nav-tabs nav-justified external-links\">\n      <li><a href='http://github.com/mszauer'><i class=\"fa fa-github\"></i></a></li>\n      <li><a href='http://linkedin.com/in/mszauer'><i class=\"fa fa-linkedin\"></i></a></li>\n    </ul>\n</div>\n"
+module.exports = "<div class=\"container-fluid col-xs-2 column sidebar\">\n  <div class=\"media\">\n    <img src=\"https://avatars0.githubusercontent.com/u/9440289?v=3&s=460\" \n          class='portrait' alt=\"A picture of Szauer, Martin\">\n    <div class=\"media-body text-center\">\n      <h4>Martin Szauer</h4>\n    </div>\n  </div>\n  <div class=\"row\">\n  <ul class = \"nav nav-pills nav-stacked navlinks\">    \n      <li><a routerLink='' routerLinkActive='active'><i class=\"fa fa-id-card\" aria-hidden=\"true\"></i>  About</a></li>\n      <li><a routerLink='portfolio' routerLinkActive='active'><i class=\"fa fa-code\" aria-hidden=\"true\"></i> Portfolio</a></li>\n      <li><a routerLink='employment' routerLinkActive='active'><i class=\"fa fa-address-book-o\" aria-hidden=\"true\"></i> Employment</a></li>\n      <li><a href='../../assets/MartinSzauerResume.pdf'><i class=\"fa fa-file-text\" aria-hidden=\"true\"></i>   Resume</a></li>\n      <li><a routerLink='contact' routerLinkActive='active'><i class=\"fa fa-envelope\" aria-hidden=\"true\"></i> Contact</a></li>\n    </ul>\n  </div>\n    <ul class=\"nav nav-tabs nav-justified external-links\">\n      <li><a href='http://github.com/mszauer'><i class=\"fa fa-github\"></i></a></li>\n      <li><a href='http://linkedin.com/in/mszauer'><i class=\"fa fa-linkedin\"></i></a></li>\n    </ul>\n</div>\n"
 
 /***/ }),
 
