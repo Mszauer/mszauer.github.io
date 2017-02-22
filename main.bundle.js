@@ -19,7 +19,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var AboutComponent = (function () {
     function AboutComponent() {
         this.aboutMe = ["I am self-taught developer, who is always trying to learn more in order \n            write cleaner and more efficient code. I place high emphasis on knowing about the\n            why behind the how.",
-            "I started learning how to program games at first, but migrated over to web design.\n             I find the UX portion of web development to be the hardest part,\n            and find much more joy in the programming behind it."];
+            "I started learning how to program games at first, but migrated over to web design.\n             I find the UI / UX portion of web development to be the most challenging, but am working on improving my skills\n             every day. I find most joy in the creation and programming of websites."];
     }
     AboutComponent.prototype.ngOnInit = function () {
     };
@@ -139,18 +139,26 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 var PortfolioComponent = (function () {
     function PortfolioComponent() {
-        this.websites = [{
-                title: 'YelpCamp',
-                target: "https://www.bit.ly/yelpcamp",
-                image: "/assets/screencaps/yelpcamp.PNG",
-                skills: "MongooseDB, Express, EJS, NodeJS, Passport, ES6",
-                description: "Full-stack project that implements RESTful routing and is like Yelp but for campsites. Registered users can\n                    add, rate, and review campsites. "
+        this.websites = [
+            {
+                title: 'ngMessenger',
+                target: "https://bit.ly/ngmessenger",
+                image: "/assets/screencaps/ngmessenger.png",
+                skills: "M.E.A.N (Mongoose,Express,Angular,NodeJs) Stack SPA ",
+                description: "Full-stack project created using the MEAN stack. Custom backend with route protection and custom error handling.\n                    Uses custom MongoDB to store users and messages, and their relations. Uses lazy loading for registration and AOT compiling.\n                    Authorization for each message tied to user authentication."
             }, {
                 title: 'ngProject',
                 target: "https://mszauer.github.io/ngProject/",
-                image: "/assets/screencaps/ngproject.PNG",
+                image: "/assets/screencaps/ngproject.png",
                 skills: "Angular (Angular2) Front-End, ES6",
                 description: "SPA Built using the latest Angular(2) build and features. Mimicks backend server calls with API calls. \n                    Uses RESTful routing and is similar to blog website. Built using re-usable components and uses Observables to handle asynchrony."
+            },
+            {
+                title: 'YelpCamp',
+                target: "https://www.bit.ly/yelpcamp",
+                image: "/assets/screencaps/yelpcamp.png",
+                skills: "MongooseDB, Express, EJS, NodeJS, Passport, ES6",
+                description: "Full-stack project that implements RESTful routing and is like Yelp but for campsites. Registered users can\n                    add, rate, and review campsites. "
             }];
     }
     PortfolioComponent.prototype.ngOnInit = function () {
@@ -424,21 +432,21 @@ var environment = {
 /***/ 664:
 /***/ (function(module, exports) {
 
-module.exports = ".panel{\r\n    margin-top: 20px;\r\n    margin-left: 21.5%;\r\n    width:70%;\r\n    height: 275px;\r\n}"
+module.exports = ""
 
 /***/ }),
 
 /***/ 665:
 /***/ (function(module, exports) {
 
-module.exports = ".panel{\r\n    margin-top: 20px;\r\n    margin-left: 21.5%;\r\n    width:70%;\r\n    height: 300px;\r\n}"
+module.exports = ""
 
 /***/ }),
 
 /***/ 666:
 /***/ (function(module, exports) {
 
-module.exports = "\r\n.start{\r\n    padding: 2px 15px;\r\n    background-color: #87CEFA;\r\n}\r\n.end{\r\n    padding: 2px 15px;\r\n    background-color: #375a7f;\r\n}\r\n.panel{\r\n    width: 70%;\r\n    margin-left: 21.5%;\r\n    height: 200px;\r\n}\r\nul{\r\n    list-style-type: none;\r\n}\r\nul:nth-child(odd){\r\n    width: 100%;\r\n    background-color: #464545;\r\n}\r\n.dates{\r\n    max-width: 100px;\r\n}\r\nli{\r\n    height: 50px;\r\n}\r\n.company{\r\n    padding-left: 1em;\r\n}\r\n.position{\r\n    margin-left: 101px;\r\n    margin-bottom: 5px;\r\n}\r\n.panel{\r\n    margin-top: 20px;\r\n    margin-left: 21.5%;\r\n    width:70%;\r\n    height: 250px;\r\n}"
+module.exports = "\r\n.start{\r\n    padding: 2px 15px;\r\n    background-color: #87CEFA;\r\n}\r\n.end{\r\n    padding: 2px 15px;\r\n    background-color: #375a7f;\r\n}\r\n.panel{\r\n    width: 70%;\r\n    margin-left: 21.5%;\r\n    height: 200px;\r\n}\r\nul{\r\n    list-style-type: none;\r\n}\r\nul:nth-child(odd){\r\n    width: 100%;\r\n    background-color: #464545;\r\n}\r\n.dates{\r\n    max-width: 100px;\r\n}\r\nli{\r\n    height: 50px;\r\n}\r\n.company{\r\n    padding-left: 1em;\r\n}\r\n.position{\r\n    margin-left: 101px;\r\n    margin-bottom: 5px;\r\n}"
 
 /***/ }),
 
@@ -452,35 +460,35 @@ module.exports = "img{\n    max-width:300px;\n}\n.media-description{\n    paddin
 /***/ 668:
 /***/ (function(module, exports) {
 
-module.exports = ".panel{\r\n    margin-top: 20px;\r\n    margin-left: 21.5%;\r\n    width:70%;\r\n    height: 600px;\r\n}\r\nul{\r\n    list-style-type: none;\r\n}\r\nli{\r\n    padding-bottom: 0.5em;\r\n    margin-bottom: 1em;\r\n    border-bottom: 1px solid grey;\r\n    background-color: #303030;\r\n}\r\na:link,\r\na:visited,\r\na:active,\r\na:hover {\r\n  font-family:Arial; \r\n  color:#fffff0; \r\n  text-decoration:none\r\n}\r\nimg{\r\n  max-width: 300px;\r\n  max-height: 350px;\r\n}\r\n\r\n"
+module.exports = "ul{\r\n    list-style-type: none;\r\n}\r\nli{\r\n    padding-bottom: 0.5em;\r\n    margin-bottom: 1em;\r\n    border-bottom: 1px solid grey;\r\n    background-color: #303030;\r\n}\r\na:link,\r\na:visited,\r\na:active,\r\na:hover {\r\n  font-family:Arial; \r\n  color:#fffff0; \r\n  text-decoration:none\r\n}\r\nimg{\r\n  max-width: 300px;\r\n  max-height: 350px;\r\n}\r\n\r\n"
 
 /***/ }),
 
 /***/ 669:
 /***/ (function(module, exports) {
 
-module.exports = ".navlinks li:first-child{\r\n    border-top: 1px solid grey;\r\n}\r\n.navlinks li{\r\n    border-bottom: 1px solid grey;\r\n    background-color: #303030;\r\n}\r\n.portrait{\r\n    width: 75%;\r\n    border-radius: 20%;\r\n    padding: 15px 0px;\r\n    margin-left: 10%;\r\n}\r\n.external-links{\r\n    padding: 0 10px;\r\n}\r\n.column{\r\n    height: 100vh;\r\n}\r\n.sidebar{\r\n    position: fixed;\r\n    min-width: 115px;\r\n}"
+module.exports = ".navlinks li:first-child{\r\n    border-top: 1px solid grey;\r\n}\r\n.navlinks li{\r\n    border-bottom: 1px solid grey;\r\n    background-color: #303030;\r\n}\r\n.portrait{\r\n    width: 75%;\r\n    border-radius: 20%;\r\n    padding: 15px 0px;\r\n    margin-left: 10%;\r\n}\r\n.external-links{\r\n    padding: 0 10px;\r\n}\r\n.column{\r\n    height: 100vh;\r\n}\r\n"
 
 /***/ }),
 
 /***/ 670:
 /***/ (function(module, exports) {
 
-module.exports = "  <div class=\"panel panel-info\">\n    <div class=\"panel-heading\">\n      <h2 class=\"panel-title\">Szauer Martin,</h2>\n    </div>\n    <div class=\"panel-body\">\n        <p>{{ aboutMe[0] }}</p>\n        <p>{{ aboutMe[1] }}</p>\n        <hr>\n        <div class='pull-right'>\n          <blockquote cite='Steve Jobs'>\n              <p>Stay Hungry.\n              Stay Foolish.</p>\n          </blockquote>\n        </div>\n    </div>\n  </div>\n"
+module.exports = "<div class=\"col-xs-8 col-xs-offset-1\">\n  <div class=\"panel panel-info\">\n    <div class=\"panel-heading\">\n      <h2 class=\"panel-title\">Szauer Martin,</h2>\n    </div>\n    <div class=\"panel-body\">\n        <p>{{ aboutMe[0] }}</p>\n        <p>{{ aboutMe[1] }}</p>\n        <hr>\n        <div class='pull-right'>\n          <blockquote cite='Steve Jobs'>\n              <p>Stay Hungry.\n              Stay Foolish.</p>\n          </blockquote>\n        </div>\n      </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
 /***/ 671:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"panel panel-info\">\n   <div class=\"panel-heading text-center\">\n      <h4 class='panel-title'>Contact Me</h4>\n    </div>\n    <div class=\"panel-body \">\n      <form method='post' action='mailto:dev@martinszauer.com'>\n        <fieldset>\n          <div class=\"form-group\">\n            <label>Name: </label>\n            <input type=\"text\" class='form-control' placeholder='jane doe'>\n          </div>\n        </fieldset>\n        <fieldset>\n          <div class=\"form-group\">\n            <label>Message</label>\n            <textarea rows='3' cols='50' class='form-control'></textarea>\n          </div>\n        </fieldset>\n        <input class='form-group' type=\"submit\" value='Send'>\n      </form>\n    </div>\n</div>"
+module.exports = "<div class=\"col-xs-8 col-xs-offset-1\">\n  <div class=\"panel panel-info\">\n    <div class=\"panel-heading text-center\">\n        <h4 class='panel-title'>Contact Me</h4>\n      </div>\n      <div class=\"panel-body \">\n        <form method='post' action='mailto:dev@martinszauer.com'>\n          <fieldset>\n            <div class=\"form-group\">\n              <label>Name: </label>\n              <input type=\"text\" class='form-control' placeholder='jane doe'>\n            </div>\n          </fieldset>\n          <fieldset>\n            <div class=\"form-group\">\n              <label>Message</label>\n              <textarea rows='3' cols='50' class='form-control'></textarea>\n            </div>\n          </fieldset>\n          <input class='form-group' type=\"submit\" value='Send'>\n        </form>\n      </div>\n  </div>\n</div>"
 
 /***/ }),
 
 /***/ 672:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"panel panel-info\">\n  <div class=\"panel-heading text-center\">\n    <h4 class='panel-title'>Employment</h4>\n  </div>\n  <div class=\"panel-body \">\n    <ul *ngFor='let employer of employers'>\n      <li>\n        <div class=\"dates pull-left text-center\">\n          <div class=\"end\">{{ employer.end }}</div>\n          <div class=\"start\">{{ employer.start }}</div>\n        </div>\n        <div class=\"content\">\n          <p class='position'><strong>{{ employer.position }}</strong></p>\n          <span class='company'><em>{{ employer.name }}</em></span>\n        </div>\n      </li>\n    </ul>\n  </div>\n</div>"
+module.exports = "<div class=\"col-xs-8 col-xs-offset-1\">\n  <div class=\"panel panel-info\">\n    <div class=\"panel-heading text-center\">\n      <h4 class='panel-title'>Employment</h4>\n    </div>\n    <div class=\"panel-body \">\n      <ul *ngFor='let employer of employers'>\n        <li>\n          <div class=\"dates pull-left text-center\">\n            <div class=\"end\">{{ employer.end }}</div>\n            <div class=\"start\">{{ employer.start }}</div>\n          </div>\n          <div class=\"content\">\n            <p class='position'><strong>{{ employer.position }}</strong></p>\n            <span class='company'><em>{{ employer.name }}</em></span>\n          </div>\n        </li>\n      </ul>\n    </div>\n  </div>\n</div>"
 
 /***/ }),
 
@@ -494,7 +502,7 @@ module.exports = "<div class=\"media\">\n  <div class=\"media-left media-middle\
 /***/ 674:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"panel panel-info\">\n   <div class=\"panel-heading text-center\">\n    <h4 class='panel-title'>Portfolio</h4>\n  </div>\n  <div class=\"panel-body \">\n      <ul>\n        <li *ngFor=\"let website of websites\">\n          <app-portfolio-piece [portfolioPiece]=\"website\"></app-portfolio-piece>\n        </li>\n      </ul>    \n  </div>\n</div>\n"
+module.exports = "<div class=\"col-xs-8 col-xs-offset-1\">\n  <div class=\"panel panel-info\">\n    <div class=\"panel-heading text-center\">\n      <h4 class='panel-title'>Portfolio</h4>\n    </div>\n    <div class=\"panel-body \">\n        <ul>\n          <li *ngFor=\"let website of websites\">\n            <app-portfolio-piece [portfolioPiece]=\"website\"></app-portfolio-piece>\n          </li>\n        </ul>    \n    </div>\n  </div>\n</div>"
 
 /***/ }),
 
